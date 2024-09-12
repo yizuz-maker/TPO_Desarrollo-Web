@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+/*estilos generales*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {    
+    width: 50px ;
+    height: 50px;
+    
+} 
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color:#2C5F2D
+    ;
+
+}
+
+.direcciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+
+
+.sectionProducts{
+    background-image: url(./Imagenes/FONDO.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* background-color: #000; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500px;
+
+}
+
+.sectionProducts img {
+    height: 500px;
+}
+
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 200px;
+    height: 250px;
+    border-radius: 2rem;
+
+    background-color: #F5F5DC;
+    background-image: url(/FOTOS/PLAYA.webp);
+
+}
+
+.sobreNosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C5F2D; /* Verde oscuro como fondo */
+    padding: 50px 0;
+    color: #F5F5DC; /* Color de texto beige */
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.textContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    p{
+        margin-top: 20px;
+    }
+}
+
+.imagenSobreNosotros {
+    width: 40%;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.textoSobreNosotros {
+    width: 60%;
+}
+
+.textoSobreNosotros h3 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #F5F5DC; /* Color del texto */
+}
+
+.textoSobreNosotros p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    position: end;
+    
+}
+.textContent h2 {
+    font-size: 70px;
+}
+.textContent p{
+    font-size: 19px;
+}
