@@ -1,7 +1,8 @@
 # la-colina
 Proyecto de Diseño y Desarrollo Web
 
-Testing
-test2
+## To do 
 
-asdasd
+- Organigrama
+- Pulir css
+- Recortar fondo de imagenes
