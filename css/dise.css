@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 
@@ -7,39 +7,40 @@
 
 
 /*estilos generales*/
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
-.logo {    
-    width: 50px ;
+.logo {
+    width: 50px;
     height: 50px;
-    
-} 
-.nav{
+
+}
+
+.nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    background-color:#2C5F2D
-    ;
+    background-color: #2C5F2D;
 
 }
 
-.direcciones{
+.direcciones {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
     width: 100%;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
     font-family: sans-serif;
@@ -48,8 +49,8 @@ a{
 
 
 
-.sectionProducts{
-    background-image: url(./Imagenes/FONDO.jpg);
+.sectionProducts {
+    background-image: url(../Imagenes/FONDO.jpg);
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -68,7 +69,7 @@ a{
 }
 
 
-.productos{
+.productos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,17 +80,17 @@ a{
     border-radius: 2rem;
 
     background-color: #F5F5DC;
-    background-image: url(/FOTOS/PLAYA.webp);
-
 }
 
 .sobreNosotros {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2C5F2D; /* Verde oscuro como fondo */
+    background-color: #2C5F2D;
+    /* Verde oscuro como fondo */
     padding: 50px 0;
-    color: #F5F5DC; /* Color de texto beige */
+    color: #F5F5DC;
+    /* Color de texto beige */
 }
 
 .contenido {
@@ -100,12 +101,12 @@ a{
     width: 90%;
 }
 
-.textContent{
+.textContent {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
-    p{
+    p {
         margin-top: 20px;
     }
 }
@@ -124,7 +125,8 @@ a{
     font-size: 70px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #F5F5DC; /* Color del texto */
+    color: #F5F5DC;
+    /* Color del texto */
 }
 
 .textoSobreNosotros p {
@@ -133,7 +135,7 @@ a{
     margin-bottom: 15px;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -142,11 +144,13 @@ a{
     height: 50px;
     background-color: green;
     position: end;
-    
+
 }
+
 .textContent h2 {
     font-size: 70px;
 }
-.textContent p{
+
+.textContent p {
     font-size: 19px;
 }
