@@ -31,6 +31,37 @@ header {
 
 }
 
+.navButton a {
+    font-size: 20px;
+}
+
+
+.navButton {
+    background-color: #2C5F2D; 
+    border-radius: 2rem;
+    border: 2px solid #2C5F2D;
+    padding: 20px;
+}
+
+.navButton:hover {
+    background-color: #f5e2dc;
+    border-radius: 2rem;
+    transition: .3s;
+  }
+  
+.navButton:hover a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #2C5F2D;
+}
+
+.navButton>a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #f5e2dc;
+}
+  
+
 .direcciones {
     display: flex;
     flex-direction: row;
@@ -40,12 +71,7 @@ header {
 
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-family: sans-serif;
 
-}
 
 
 
