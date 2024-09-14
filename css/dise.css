@@ -73,8 +73,6 @@ header {
 
 
 
-
-
 .sectionProducts {
     background-image: url(../Imagenes/FONDO.jpg);
     background-size: cover;
@@ -83,7 +81,7 @@ header {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    /* background-color: #000; */
+
     margin-top: 30px;
     margin-bottom: 30px;
     height: 700px;
@@ -101,26 +99,44 @@ header {
     width: 400px;
     height: 550px;
     border-radius: 2rem;
-
     background-color: #F5F5DC;
+    transition: all 0.5s ease;
 }
 
-.mananitaYerba {
+.productos img {
     width: 230px;
+    transition: transform 0.5s ease; 
+}
+
+.productos img:hover {
+    transform: scale(1.2); 
+}
+
+.productos img:hover ~ p {
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.3s ease; 
+}
+
+
+.mananitaYerba, .rosamonteYerba, .chamigoYerba {
+    transition: transform 0.5s ease; 
+}
+
+.mananitaYerba:hover, .rosamonteYerba:hover, .chamigoYerba:hover {
+    cursor: zoom-in;
 }
 .descripcionYerba {
-font-family: sans-serif;
-text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: center;
 }
 .sobreNosotros {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #2C5F2D;
-    /* Verde oscuro como fondo */
     padding: 50px 0;
     color: #F5F5DC;
-    /* Color de texto beige */
 }
 
 .sobreNosotros p {
@@ -160,7 +176,6 @@ text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
     color: #F5F5DC;
-    /* Color del texto */
 }
 
 .textoSobreNosotros p {
