@@ -60,13 +60,10 @@ a {
     /* background-color: #000; */
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 500px;
+    height: 700px;
 
 }
 
-.sectionProducts img {
-    height: 500px;
-}
 
 
 .productos {
@@ -75,11 +72,15 @@ a {
     align-items: center;
     justify-content: space-around;
 
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: 550px;
     border-radius: 2rem;
 
     background-color: #F5F5DC;
+}
+
+.mananitaYerba {
+    width: 270px;
 }
 
 .sobreNosotros {
@@ -91,6 +92,10 @@ a {
     padding: 50px 0;
     color: #F5F5DC;
     /* Color de texto beige */
+}
+
+.sobreNosotros p {
+    font-size: large;
 }
 
 .contenido {
