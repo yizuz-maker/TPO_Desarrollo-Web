@@ -39,9 +39,11 @@ header{
 }
 
 .companyName {
+    font-family: "Ubuntu", sans-serif;
     text-align: start;
     font-size: 24px;
     font-weight: bold;
+    color:#f5e2dc;
 }
 
 .navButton a {
@@ -64,13 +66,12 @@ header{
 
 .navButton:hover a {
     text-decoration: none;
-    font-family: sans-serif;
     color: #2C5F2D;
 }
 
 .navButton>a {
-    text-decoration: none;
-    font-family: sans-serif;
+   text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
     color: #f5e2dc;
 }
 
@@ -85,12 +86,14 @@ header{
 a{
     text-decoration: none;
     color: black;
-    font-family: sans-serif;
+    font-family: "Ubuntu", sans-serif;
+
 
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Ubuntu", sans-serif;
+
     background-color: #f9f9f9;
 }
 
@@ -142,9 +145,12 @@ input, textarea {
 
 textarea {
     height: 100px;
+    
 }
 
-button {
+.envioFormulario {
+    font-family: "Ubuntu", sans-serif;
+
     padding: 10px;
     background-color: #d3c3b5;
     color: white;
@@ -153,7 +159,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.envioFormulario:hover {
     background-color: #b29a88;
 }
 
@@ -187,6 +193,7 @@ button:hover {
 footer {
     margin-top: 278px;
     display: flex;
+    font-family: "Ubuntu", sans-serif;
     flex-direction: row;
     flex-flow: row-reverse;
     align-items: center;

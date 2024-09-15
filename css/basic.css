@@ -40,9 +40,11 @@ header {
 }
 
 .companyName {
+    font-family: "Ubuntu", sans-serif;
     text-align: start;
     font-size: 24px;
     font-weight: bold;
+    color:#f5e2dc;
 }
 
 .navButton a {
@@ -65,13 +67,12 @@ header {
 
 .navButton:hover a {
     text-decoration: none;
-    font-family: sans-serif;
     color: #2C5F2D;
 }
 
 .navButton>a {
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Ubuntu", sans-serif;
     color: #f5e2dc;
 }
 
@@ -116,9 +117,19 @@ header {
     transition: all 0.5s ease;
 }
 
-.productos img {
+.productos p {
+    font-family: sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+.productos  .mananitaYerba,.rosamonteYerba,.chamigoYerba{
     width: 230px;
     transition: transform 0.5s ease;
+}
+
+.rosamonteYerba {
+    width: 215px;
 }
 
 .productos img:hover {
@@ -129,7 +140,6 @@ header {
     visibility: hidden;
     transition: visibility 0s, opacity 0.3s ease;
 }
-
 
 .mananitaYerba,
 .rosamonteYerba,
@@ -145,9 +155,16 @@ header {
 
 .descripcionYerba {
     padding: 20px;
-    font-family: sans-serif;
+    font-family: "Ubuntu", sans-serif;
     text-align: center;
 }
+
+.descripcionPrecioYerba {
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
 
 .sobreNosotros {
     display: flex;
@@ -159,7 +176,10 @@ header {
 }
 
 .sobreNosotros p {
+    
+    font-family: sans-serif;
     font-size: large;
+ 
 }
 
 .contenido {
@@ -188,33 +208,29 @@ header {
 }
 
 .textoSobreNosotros {
+
     width: 60%;
 }
 
 .textoSobreNosotros h3 {
+    font-family: "Ubuntu", sans-serif;
     font-size: 70px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #F5F5DC;
 }
 
-.textoSobreNosotros p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
 
 .footer {
     display: flex;
     flex-direction: row;
     flex-flow: row-reverse;
+    font-family: "Ubuntu", sans-serif;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     background-color: green;
     position: end;
-
-
 }
 
 .iconsSocialMedia {
@@ -248,5 +264,6 @@ header {
 }
 
 .textContent p {
+    
     font-size: 19px;
 }
