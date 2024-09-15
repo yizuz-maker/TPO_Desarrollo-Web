@@ -7,3 +7,4 @@ La Colina, proyecto de Diseño y Desarrollo Web
 - Links de imagenes a Paginas de Yerbas
 - Añadir Nombre luego del logo
 - Modificar footer
+- Modificar el texto "sobre nosotros"
