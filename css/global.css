@@ -5,7 +5,7 @@
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 header{
@@ -15,11 +15,7 @@ header{
     padding: 10px;
 }
 
-.logo {    
-    width: 50px ;
-    height: 50px;
-    
-} 
+
 
 .nav {
     display: flex;
@@ -30,6 +26,22 @@ header{
     height: 100%;
     background-color: #2C5F2D;
 
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px; 
+    margin-right: 10px;
+}
+
+.companyName {
+    text-align: start;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .navButton a {
@@ -80,8 +92,6 @@ a{
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -148,16 +158,40 @@ button:hover {
 }
 
 
-header {
+
+.iconsSocialMedia {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end; 
+    list-style: none; 
+    margin: 0;
+}
+
+.iconsSocialMedia li {
+    margin: 5px 10px; 
+
+}
+
+.iconsSocialMedia img {
+    border-radius: 2rem;
+    border: 2px solid #2C5F2D;
+    background-color: #f5e2dc;
+    color: #2C5F2D;
+    padding: 3px;
+    width: 25px; 
+}
+
+.copyright p {
     padding: 10px;
+    color: #f5e2dc;
 }
-
-.logo {
-    width: 50px;
-    height: 50px;
-
+footer {
+    margin-top: 278px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: green;
+    position: end;
 }
-
