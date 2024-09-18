@@ -1,14 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow: hidden;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +35,7 @@ header{
 }
 
 .logo {
-    width: 70px; 
+    width: 70px;
     margin-right: 10px;
 }
 
@@ -43,7 +44,7 @@ header{
     text-align: start;
     font-size: 24px;
     font-weight: bold;
-    color:#f5e2dc;
+    color: #f5e2dc;
 }
 
 .navButton a {
@@ -70,20 +71,21 @@ header{
 }
 
 .navButton>a {
-   text-decoration: none;
+    text-decoration: none;
     font-family: "Ubuntu", sans-serif;
     color: #f5e2dc;
 }
 
-.direcciones{
+.direcciones {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
     width: 100%;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
     font-family: "Ubuntu", sans-serif;
@@ -135,7 +137,8 @@ body {
     width: 48%;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -145,7 +148,7 @@ input, textarea {
 
 textarea {
     height: 100px;
-    
+
 }
 
 .envioFormulario {
@@ -167,13 +170,13 @@ textarea {
 
 .iconsSocialMedia {
     display: flex;
-    justify-content: flex-end; 
-    list-style: none; 
+    justify-content: flex-end;
+    list-style: none;
     margin: 0;
 }
 
 .iconsSocialMedia li {
-    margin: 5px 10px; 
+    margin: 5px 10px;
 
 }
 
@@ -183,13 +186,14 @@ textarea {
     background-color: #f5e2dc;
     color: #2C5F2D;
     padding: 3px;
-    width: 25px; 
+    width: 25px;
 }
 
 .copyright p {
     padding: 10px;
     color: #f5e2dc;
 }
+
 footer {
     margin-top: 278px;
     display: flex;

@@ -5,9 +5,11 @@
 }
 
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
+    background-color: #f7e3c0;
 }
 
 header {
@@ -25,7 +27,7 @@ header {
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    background-color: #2C5F2D;
+    background-color: #3a5339;
 
 }
 
@@ -35,7 +37,7 @@ header {
 }
 
 .logo {
-    width: 70px; 
+    width: 70px;
     margin-right: 10px;
 }
 
@@ -44,7 +46,7 @@ header {
     text-align: start;
     font-size: 24px;
     font-weight: bold;
-    color:#f5e2dc;
+    color: #f7e3c0;
 }
 
 .navButton a {
@@ -53,27 +55,27 @@ header {
 
 
 .navButton {
-    background-color: #2C5F2D;
+    background-color: #3a5339;
     border-radius: 2rem;
-    border: 2px solid #2C5F2D;
+    border: 2px solid #3a5339;
     padding: 20px;
 }
 
 .navButton:hover {
-    background-color: #f5e2dc;
+    background-color: #f7e3c0;
     border-radius: 2rem;
     transition: .3s;
 }
 
 .navButton:hover a {
     text-decoration: none;
-    color: #2C5F2D;
+    color: #3a5339;
 }
 
 .navButton>a {
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
-    color: #f5e2dc;
+    color: #f7e3c0;
 }
 
 
@@ -113,7 +115,7 @@ header {
     width: 400px;
     height: 550px;
     border-radius: 2rem;
-    background-color: #F5F5DC;
+    background-color: #f7e3c0;
     transition: all 0.5s ease;
 }
 
@@ -123,7 +125,9 @@ header {
     font-style: normal;
 }
 
-.productos  .mananitaYerba,.rosamonteYerba,.chamigoYerba{
+.productos .mananitaYerba,
+.rosamonteYerba,
+.chamigoYerba {
     width: 230px;
     transition: transform 0.5s ease;
 }
@@ -162,7 +166,7 @@ header {
 .descripcionPrecioYerba {
     font-size: 25px;
     font-weight: bolder;
-    
+
 }
 
 
@@ -170,9 +174,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2C5F2D;
+    background-color: #3a5339;
     padding: 50px 0;
-    color: #F5F5DC;
+    color: #f7e3c0;
 }
 
 .sobreNosotros p {
@@ -187,6 +191,10 @@ header {
     align-items: flex-start;
     max-width: 1200px;
     width: 90%;
+    background-color: #f7e3c0;
+    border: 2px solid #3a5339;
+    padding: 20px;
+    border-radius: 2rem;
 }
 
 .textContent {
@@ -216,7 +224,7 @@ header {
     font-size: 70px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #F5F5DC;
+    color: #3a5339;
 }
 
 
@@ -228,29 +236,29 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: green;
+    background-color: #3a5339;
     position: end;
 }
 
 .iconsSocialMedia {
     display: flex;
-    justify-content: flex-end; 
-    list-style: none; 
+    justify-content: flex-end;
+    list-style: none;
     margin: 0;
 }
 
 .iconsSocialMedia li {
-    margin: 5px 10px; 
+    margin: 5px 10px;
 
 }
 
 .iconsSocialMedia img {
     border-radius: 2rem;
-    border: 2px solid #2C5F2D;
-    background-color: #f5e2dc;
+    border: 2px solid #3a5339;
+    background-color: #f7e3c0;
     color: #2C5F2D;
     padding: 3px;
-    width: 25px; 
+    width: 25px;
 }
 
 .copyright p {
@@ -260,9 +268,11 @@ header {
 
 .textContent h2 {
     font-size: 70px;
+    color: #3a5339;
 }
 
 .textContent p {
-    
+
+    color: #3a5339;
     font-size: 19px;
 }
