@@ -176,10 +176,9 @@ header {
 }
 
 .sobreNosotros p {
-    
+    text-align: justify;
     font-family: sans-serif;
     font-size: large;
- 
 }
 
 .contenido {
