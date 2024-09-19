@@ -25,7 +25,7 @@ header {
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    background-color: #2C5F2D;
+    background-color: #3a5339;
 
 }
 
@@ -44,7 +44,7 @@ header {
     text-align: start;
     font-size: 24px;
     font-weight: bold;
-    color: #f5e2dc;
+    color: #f7e3c0;
 }
 
 .navButton a {
@@ -53,27 +53,27 @@ header {
 
 
 .navButton {
-    background-color: #2C5F2D;
+    background-color: #3a5339;
     border-radius: 2rem;
-    border: 2px solid #2C5F2D;
+    border: 2px solid #3a5339;
     padding: 20px;
 }
 
 .navButton:hover {
-    background-color: #f5e2dc;
+    background-color: #f7e3c0;
     border-radius: 2rem;
     transition: .3s;
 }
 
 .navButton:hover a {
     text-decoration: none;
-    color: #2C5F2D;
+    color: #3a5339;
 }
 
 .navButton>a {
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
-    color: #f5e2dc;
+    color: #f7e3c0;
 }
 
 .direcciones {
@@ -96,7 +96,7 @@ a {
 body {
     font-family: "Ubuntu", sans-serif;
 
-    background-color: #f9f9f9;
+    background-color: #f7e3c0;
 }
 
 .container {
@@ -155,15 +155,15 @@ textarea {
     font-family: "Ubuntu", sans-serif;
 
     padding: 10px;
-    background-color: #d3c3b5;
-    color: white;
+    background-color: #f7e3c0;
+    color: #3a5339;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .envioFormulario:hover {
-    background-color: #b29a88;
+    background-color: #f7e3c0;
 }
 
 
@@ -182,16 +182,16 @@ textarea {
 
 .iconsSocialMedia img {
     border-radius: 2rem;
-    border: 2px solid #2C5F2D;
-    background-color: #f5e2dc;
-    color: #2C5F2D;
+    border: 2px solid #3a5339;
+    background-color: #f7e3c0;
+    color: #3a5339;
     padding: 3px;
     width: 25px;
 }
 
 .copyright p {
     padding: 10px;
-    color: #f5e2dc;
+    color: #f7e3c0;
 }
 
 footer {
@@ -203,6 +203,6 @@ footer {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: green;
+    background-color: #3a5339;
     position: end;
 }
