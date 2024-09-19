@@ -195,7 +195,6 @@ textarea {
 }
 
 footer {
-    margin-top: 278px;
     display: flex;
     font-family: "Ubuntu", sans-serif;
     flex-direction: row;
@@ -204,5 +203,6 @@ footer {
     justify-content: space-between;
     width: 100%;
     background-color: #3a5339;
-    position: end;
+    position: fixed;
+    bottom: 0;
 }
