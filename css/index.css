@@ -104,7 +104,10 @@ header {
 
 }
 
-
+.mate8 {
+    width: 1800px;
+    margin-top: 40px;
+}
 
 .productos {
     display: flex;
