@@ -1,208 +1,208 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html,
 body {
-    max-width: 100%;
-    overflow: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 
 
 .nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    background-color: #3a5339;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #3a5339;
 
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-    width: 70px;
-    margin-right: 10px;
+  width: 70px;
+  margin-right: 10px;
 }
 
 .companyName {
-    font-family: "Ubuntu", sans-serif;
-    text-align: start;
-    font-size: 24px;
-    font-weight: bold;
-    color: #f7e3c0;
+  font-family: "Ubuntu", sans-serif;
+  text-align: start;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f7e3c0;
 }
 
 .navButton a {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 
 .navButton {
-    background-color: #3a5339;
-    border-radius: 2rem;
-    border: 2px solid #3a5339;
-    padding: 20px;
+  background-color: #3a5339;
+  border-radius: 2rem;
+  border: 2px solid #3a5339;
+  padding: 20px;
 }
 
 .navButton:hover {
-    background-color: #f7e3c0;
-    border-radius: 2rem;
-    transition: .3s;
+  background-color: #f7e3c0;
+  border-radius: 2rem;
+  transition: .3s;
 }
 
 .navButton:hover a {
-    text-decoration: none;
-    color: #3a5339;
+  text-decoration: none;
+  color: #3a5339;
 }
 
 .navButton>a {
-    text-decoration: none;
-    font-family: "Ubuntu", sans-serif;
-    color: #f7e3c0;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  color: #f7e3c0;
 }
 
 .direcciones {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
 
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
 
 
 }
 
 body {
-    font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 
-    background-color: #f7e3c0;
+  background-color: #f7e3c0;
 }
 
 .container {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .contact-item {
-    text-align: center;
+  text-align: center;
 }
 
 .contact-item p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .input-group {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .input-group input {
-    width: 48%;
+  width: 48%;
 }
 
 input,
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 textarea {
-    height: 100px;
+  height: 100px;
 
 }
 
 .envioFormulario {
-    font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 
-    padding: 10px;
-    background-color: #f7e3c0;
-    color: #3a5339;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 10px;
+  background-color: #f7e3c0;
+  color: #3a5339;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .envioFormulario:hover {
-    background-color: #f7e3c0;
+  background-color: #f7e3c0;
 }
 
 
 
 .iconsSocialMedia {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
 }
 
 .iconsSocialMedia li {
-    margin: 5px 10px;
+  margin: 5px 10px;
 
 }
 
 .iconsSocialMedia img {
-    border-radius: 2rem;
-    border: 2px solid #3a5339;
-    background-color: #f7e3c0;
-    color: #3a5339;
-    padding: 3px;
-    width: 25px;
+  border-radius: 2rem;
+  border: 2px solid #3a5339;
+  background-color: #f7e3c0;
+  color: #3a5339;
+  padding: 3px;
+  width: 25px;
 }
 
 .copyright p {
-    padding: 10px;
-    color: #f7e3c0;
+  padding: 10px;
+  color: #f7e3c0;
 }
 
 footer {
-    display: flex;
-    font-family: "Ubuntu", sans-serif;
-    flex-direction: row;
-    flex-flow: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #3a5339;
-    position: fixed;
-    bottom: 0;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  flex-direction: row;
+  flex-flow: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #3a5339;
+  position: fixed;
+  bottom: 0;
 }
