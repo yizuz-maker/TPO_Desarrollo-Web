@@ -26,9 +26,41 @@
       <li><button class="navButton"><a href="#sobreNosotros">Sobre Nosotros</a></button></li>
     </ul>
   </header>
-  <center>
-    <img class="mate8" src="./Imagenes/Mate14.png">
-  </center>
+        <br>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./Imagenes/verde1.jpeg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./Imagenes/Mate14.png" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./Imagenes/verde1.jpeg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+        </div>
+
+        <div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <script src="./js/script.js"></script>
   <main>
 
     <section id="Compras" class="sectionProducts">
