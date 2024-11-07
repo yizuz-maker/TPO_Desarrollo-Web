@@ -75,7 +75,10 @@ body{
     height: 60px;
     width: auto;
 }
-
+.contador{
+    position: absolute;
+    color: white !important;
+}
 
 /* Estilos de la página de detalles del producto */
 

@@ -67,6 +67,10 @@
     height: 60px;
     width: auto;
 }
+.contador{
+    position: absolute;
+    color: white !important;
+}
 
 
 
@@ -171,7 +175,7 @@ a {
 .division  {
     height: 650px;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(/IMAGENES/pexels-tnarg-3152190.jpg) ;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(../IMAGENES/pexels-tnarg-3152190.jpg) ;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -196,7 +200,7 @@ font-family: fantasy;
     .sobrenosotros {
         height: 450px;
         width: 100%;
-        background-image: url(/IMAGENES/patronde-louis-vuitton-supremo-en-4k-oh037qwockxl9xci.jpg);
+        background-image: url(../IMAGENES/patronde-louis-vuitton-supremo-en-4k-oh037qwockxl9xci.jpg);
         background-size: cover;
         display: flex;
         flex-direction: column;

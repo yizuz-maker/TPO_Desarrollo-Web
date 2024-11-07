@@ -4,7 +4,7 @@ const products = [
     brand: "Nike",
     name: "Dunk Low Pro SB 'Freddy Krueger'",
     price: "$100,000.00 USD",
-    image: "/IMAGENES/FREDY.webp",
+    image: "./IMAGENES/FREDY.webp",
     description: "Este es un modelo exclusivo de Dunk Low Pro SB inspirado en Freddy Krueger."
     },
     {
@@ -12,7 +12,7 @@ const products = [
     brand: "Jordan",
     name: "OVO x Air Jordan 14 Retro 'Gods Plan' Sample",
     price: "$59,999.00 USD",
-    image: "/IMAGENES/14 retro.webp",
+    image: "./IMAGENES/14 retro.webp",
     description: "Una colaboración especial entre OVO y Jordan."
     },
     {
@@ -20,7 +20,7 @@ const products = [
     brand:"Nike",
     name:"Louis Vuitton x Air Force 1 Low 'Monogram Damier' Pilot Case",
     price:"$115,000.00 USD",
-    image:"/IMAGENES/vuittone.webp",
+    image:"./IMAGENES/vuittone.webp",
     description:"Una colaboracion entre louis vuitton y Air Force 1 Low "
     },
     {
@@ -28,7 +28,7 @@ const products = [
     brand:"Jordan",
     name:"Red Ribbon Recon x Air Jordan 1 Retro High 'Supreme & Louis Vuitton' Custom",
     price:"$33,500.00 USD",
-    image:"/IMAGENES/red vuitton.webp",
+    image:"./IMAGENES/red vuitton.webp",
     description:"Una colaboracion de Jordan con Supreme & Louis Vuitton"
     },
     {
@@ -36,7 +36,7 @@ const products = [
     brand:"Jordan",
     name:"Eminen x Carhartt x Air Jordan 4 retro 'black chrome'",
     price:"$26,995.00 USD",
-    image:"/IMAGENES/eminem.webp",
+    image:"./IMAGENES/eminem.webp",
     description:"Colaboracion de jordan con el famoso rapero Eminem"
     },
     {
@@ -44,7 +44,7 @@ const products = [
     brand:"Nike",
     name:"Zoom LeBron 6 'Stewie' Sample",
     price:"$23,430.00 USD",
-    image:"/IMAGENES/lebron animadas.webp",
+    image:"./IMAGENES/lebron animadas.webp",
     description:""
     },
     {
@@ -52,7 +52,7 @@ const products = [
     brand:"Nike",
     name:"Nike Mag 'Back To The Future",
     price:"$28,500.00 USD",
-    image:"/IMAGENES/future.webp",
+    image:"./IMAGENES/future.webp",
     description:"Colaboracion de jordan con la pelicula Back to the Future"
     },
     {
@@ -60,7 +60,7 @@ const products = [
     brand:" Nike",
     name:"Dunk High Sb 'Iron Maiden'",
     price:"$26,490.00 USD",
-    image:"/IMAGENES/face.webp",
+    image:"./IMAGENES/face.webp",
     description:"Colaboracion de Nike con la banda Iron Maiden"
     },
     {
@@ -68,7 +68,7 @@ const products = [
     brand:"Nike",
     name:"Scarr's Pizza x Air Force 1 Low 'Friends and Family'",
     price:"$29,000.00 USD",
-    image:"/IMAGENES/pizza.webp",
+    image:"./IMAGENES/pizza.webp",
     description:"Colaboracion exclusiva de Scarr's Pizza x Air Force 1"
     },
     {
@@ -76,7 +76,7 @@ const products = [
     brand:"Jordan",
     name:"Travis Scott x Air Jordan 4 Retro 'Cactus Jack' Friends & Family",
     price:"$7,800.00",
-    image:"/IMAGENES/travis.webp",
+    image:"./IMAGENES/travis.webp",
     description:"Colaboracion exclusiva de Jordan x Travis Scott"
     },
     {
@@ -84,7 +84,7 @@ const products = [
     brand:"Supreme",
     name:"Supreme Blow Back Rayon Short-Sleeve Shirt 'Black'",
     price:"$8,000.00 USD",
-    image:"/IMAGENES/camisaSupreme.webp",
+    image:"./IMAGENES/camisaSupreme.webp",
     description:""
     },
     {
@@ -92,7 +92,7 @@ const products = [
     brand:"Market",
     name:"Market Botanical Bear T-Shirt 'Chalk'",
     price:"$7,967.00 USD",
-    image:"/IMAGENES/oso.webp",
+    image:"./IMAGENES/oso.webp",
     description:""
     },
     {
@@ -100,7 +100,7 @@ const products = [
     brand:"SUPREME",
     name:"SUPREME ROSE RUGBY",
     price:"$6,000.00 USD",
-    image:"/IMAGENES/rugby.webp",
+    image:"./IMAGENES/rugby.webp",
     description:""
     },
     {
@@ -108,7 +108,7 @@ const products = [
     brand:"Gucci",
     name:"Gucci Tiger Jacquard Wool Blend Sweater 'Green'",
     price:"$4,705.00 USD",
-    image:"/IMAGENES/tigreverde.webp",
+    image:"./IMAGENES/tigreverde.webp",
     description:""
     },
     {
@@ -116,7 +116,7 @@ const products = [
     brand:"Chrome Hearts",
     name:"Chrome Hearts Cross Patch Chino Pants 'Black/Camo'",
     price:"$15,743.00 USD",
-    image:"/IMAGENES/lompaRelijioso.webp",
+    image:"./IMAGENES/lompaRelijioso.webp",
     description:""
     },
     {
@@ -124,7 +124,7 @@ const products = [
     brand:"Kith & Jeff Hamilton",
     name:"Kith & Jeff Hamilton for the NFL: Giants Leather Varsity Jacket 'Giants'",
     price:"$15,980.00 USD",
-    image:"/IMAGENES/giants.webp",
+    image:"./IMAGENES/giants.webp",
     description:""
     },
     {
@@ -132,7 +132,7 @@ const products = [
     brand:"Amiri",
     name:"Amiri Palm Blouson 'Black'",
     price:"$4,600.00 USD",
-    image:"/IMAGENES/amiri.webp",
+    image:"./IMAGENES/amiri.webp",
     description:""
     },
     {
@@ -140,7 +140,7 @@ const products = [
     brand:"Off-White",
     name:"Off-White Logo Patch Varsity Jacket 'Black/Peacock'",
     price:"$5,230.00 USD",
-    image:"/IMAGENES/offWhite.webp",
+    image:"./IMAGENES/offWhite.webp",
     description:""
     },
     {
@@ -148,7 +148,7 @@ const products = [
     brand:"Palace",
     name:"Palace Faster Jacket 'Navy/White'",
     price:"$3,743.00 USD",
-    image:"/IMAGENES/palace.webp",
+    image:"./IMAGENES/palace.webp",
     description:""
     },
     {
@@ -156,7 +156,7 @@ const products = [
     brand:"",
     name:"Supreme x Yohji Yamamoto x Vanson Leathers Split Pant 'White'",
     price:"$2,365.00 usd",
-    image:"/IMAGENES/supreme.webp",
+    image:"./IMAGENES/supreme.webp",
     description:""
     },
 ];
@@ -253,6 +253,9 @@ function carritoProduct() {
 
     // Guardar el carrito actualizado en el Local Storage
     localStorage.setItem("cart", JSON.stringify(cart));
+
+    const contador = document.getElementById("contadorItem");
+    contador.innerHTML = cart.length;
 
     // Mostrar un mensaje de confirmación
     alert("Producto añadido al carrito");
