@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+.main {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: black;
+    position: relative;
+
+}
+
+/* Menú a la izquierda */
+.direcciones {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px; 
+    color: white;
+}
+
+.direcciones li {
+    margin-right: 15px;
+    
+}
+
+.navButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff !important;
+}
+
+.navButton a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Logo centrado */
+.Logocontainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el logo */
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.carrito {
+    position: absolute;
+    right: 20px; 
+    display: flex;
+    align-items: center;
+}
+
+.logocarrito {
+    height: 60px;
+    width: auto;
+}
+
+
+/* Estilos de la página de detalles del producto */
+
+.product-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    max-width: 500px;
+    flex: 1;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+    align-self: center;
+    max-width: 400px;
+}
+
+.product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea el contenido a la izquierda */
+    text-align: left;
+}
+
+.product-brand {
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Sección de Talla */
+.size-selection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+.size-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.size-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.size-selection span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 15px;
+}
+
+.size-option {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.size-option.selected {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+/* Sección de Cantidad */
+.quantity-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.quantity-selection label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.quantity-button {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.quantity-button:hover {
+    background-color: #f0f0f0;
+}
+
+#product-quantity {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+}
+
+.carrito-container {
+    /* margin-top: 20px; Ajusta el margen superior para acercarlo a la sección de cantidad */
+    width: 100%; /* Asegura que el botón ocupe todo el ancho del contenedor */
+    display: flex;
+    justify-content: left; /* Centra el botón si es necesario */
+}
+
+.carrito-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carrito-button:hover {
+    background-color: #333;
+}
+
+
+/* footer */
+.footer {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row-reverse;
+        font-family: "Ubuntu", sans-serif;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: auto;
+        position: fixed; /* Fijar el footer */
+        bottom: 0; /* Ubicarlo al fondo */
+        left: 0;
+        z-index: 10;
+}
+
+.iconsSocialMedia {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+.iconsSocialMedia li {
+    margin: 5px 10px;
+
+}
+
+.iconsSocialMedia img {
+    border-radius: 2rem;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    width: 25px;
+}
+
+.copyright p {
+    padding: 10px;
+    color: white;
+}
+
+.textContent h2 {
+    font-size: 70px;
+    color: black;
+}
+
+.textContent p {
+
+    color: black;
+    font-size: 19px;
+}

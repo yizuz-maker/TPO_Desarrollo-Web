@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="CSS/contacto.css">
+</head>
+<body>
+    <header class="Nav">
+        <ul class="direcciones">
+            <a href="/contacto.html"><li><button class="navButton">Contacto</button></li></a>
+            <a href="/index.html#sneaker"><li><button class="navButton">Sneakers</button></li></a>
+            <a href="/index.html#prendas"><li><button class="navButton">Prendas</button></li></a>
+        </ul> 
+        <div class="Logocontainer">
+            <a href="index.html"><img src="./IMAGENES/ES.png" alt="logo" class="logo"></a>
+        </div>
+        <div class="carrito">
+            <a href="carrito.html"><img src="./IMAGENES/ICONS/carrito-de-compras1.png" class="logocarrito"></a>
+        </div>  
+    
+    </header>
+
+
+    <main class="main">
+    <h1>Contacto</h1>
+
+<div class="container">
+    <form>
+        <div class="input-group">
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="email" name="correo" placeholder="Correo *" required>
+        </div>
+        <input type="text" name="telefono" placeholder="Número de teléfono">
+    
+        <select id="razon" name="razon">
+            <option value="razon">Razon</option>
+            <option value="comprar">Comprar en local</option>
+            <option value="retirar">Retirar producto</option>
+        </select>
+        
+        <textarea name="comentario" rows="4" placeholder="Comentario"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+</main>
+</body>
+</html>

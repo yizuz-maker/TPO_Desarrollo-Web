@@ -1,0 +1,245 @@
+.main {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: black;
+    position: relative;
+}
+
+/* Menú a la izquierda */
+.direcciones {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px; /* Ajuste para alinear a la izquierda */
+}
+
+.direcciones li {
+    margin-right: 15px;
+}
+
+.navButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navButton a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Logo centrado */
+.Logocontainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el logo */
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+/* Carrito a la derecha */
+.carrito {
+    position: absolute;
+    right: 20px; /* Ajuste para alinear a la derecha */
+    display: flex;
+    align-items: center;
+}
+
+.logocarrito {
+    height: 60px;
+    width: auto;
+}
+
+
+
+
+/*body*/
+
+body {
+    background-color: #f0f8ff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+    width: 100%; /* Utiliza el 100% del contenedor padre */
+    max-width: 1024px; /* Establece un ancho máximo */
+    overflow: hidden;
+    margin: auto; /* Centra el carrusel en la página */
+}
+
+.carousel ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.5s ease;
+    list-style: none;
+}
+
+.carousel li {
+    min-width: 100%; /* Cada imagen ocupa todo el ancho del carrusel */
+}
+
+.carousel img {
+    width: 100%; /* Asegúrate de que las imágenes se ajusten al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.mercaderia {
+    background-color: aliceblue;
+    display: flex;
+    padding: 100px;
+    width: auto;
+    justify-content: space-around;  
+    flex-wrap: wrap;  
+}
+
+.estilo {
+    width: 180px; /* Ajusta el ancho de cada tarjeta de producto */
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding: 15px;
+    margin: 10px;
+    display: flex;     /*para que quede todo alineado*/
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.estilo:hover {
+    transform: scale(1.05);
+}
+
+.estilo img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-radius: 4px;
+}
+
+.estilo h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: black;
+    text-decoration: none;
+}
+
+.estilo p {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.division  {
+    height: 650px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(/IMAGENES/pexels-tnarg-3152190.jpg) ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.division p {
+color: #ffffff;
+font-size: 60px;
+font-family: fantasy;
+}
+
+
+.division img{
+    max-width: 100%; 
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    font-family: "Ubuntu", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: end;
+}
+
+.iconsSocialMedia {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+.iconsSocialMedia li {
+    margin: 5px 10px;
+
+}
+
+.iconsSocialMedia img {
+    border-radius: 2rem;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    width: 25px;
+}
+
+.copyright p {
+    padding: 10px;
+    color: white;
+}
+
+.textContent h2 {
+    font-size: 70px;
+    color: black;
+}
+
+.textContent p {
+
+    color: black;
+    font-size: 19px;
+}

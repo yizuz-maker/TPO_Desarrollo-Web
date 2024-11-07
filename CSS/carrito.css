@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+h2 {
+    /* text-align: center; */
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:start;
+    padding: 15px;
+    margin: 10px;
+    margin-left: 0%    ;
+    margin-right:87%;
+    background-color: #1f1f1f;
+    font-size: 20px;
+    /* text-align: center; */
+    
+}
+
+/* Estilo del contenedor de cada ítem del carrito */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Estilo de la imagen del producto */
+.cart-item img {
+    width: 80px; /* Aumenta el tamaño de la imagen */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* Contenedor de la información del producto */
+.cart-item div {
+    flex: 1;
+}
+
+/* Estilo del texto del producto */
+.cart-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cart-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Estilo del botón "Eliminar" para que coincida con los otros botones */
+.cart-item button {
+    background-color: black; /* Color de fondo similar a los otros botones */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.cart-item button:hover {
+    background-color: #333; /* Efecto hover para hacer el botón más oscuro */
+}
+
+/* Estilo de los botones de "VACIAR CARRITO" y "COMPRAR AHORA" */
+.cart-summary button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.cart-summary button:hover {
+    background-color: #333;
+}
+
+/* Estilo del contenedor de resumen del carrito */
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+}

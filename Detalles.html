@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <link rel="stylesheet" href="/CSS/detalles.css">
+</head>
+<body>
+    <header class="Nav">
+        <ul class="direcciones">
+            <a href="/contacto.html"><li><button class="navButton">Contacto</button></li></a>
+            <a href="/index.html#sneaker"><li><button class="navButton">Sneakers</button></li></a>
+            <a href="/index.html#prendas"><li><button class="navButton">Prendas</button></li></a>
+        </ul>
+        <div class="Logocontainer">
+            <a href="index.html"><img src="./Imagenes/ES.png" alt="logo" class="logo"></a>
+        </div>
+        <div class="carrito">
+            <a href="carrito.html"><img src="./IMAGENES/ICONS/carrito-de-compras1.png" class="logocarrito"></a>
+        </div>  
+    </header>
+
+    <section class="product-detail">
+        <div class="image-container">
+            <img id="product-image" src="" alt="Imagen del producto">
+        </div>
+        <div class="product-info">
+            <h2 id="product-brand" class="product-brand"></h2>
+            <h1 id="product-name" class="product-name"></h1>
+            <p id="product-price" class="product-price"></p>
+            <p id="product-description" class="product-description"></p>
+
+            <!-- Selección de Talla -->
+            <div class="size-selection">
+                <span class="size-label">Talla</span> 
+                <div class="size-options">
+                </div>
+
+
+            <!-- Selección de Cantidad -->
+            <div class="quantity-selection">
+                <label for="product-quantity">Cantidad</label>
+                <div class="quantity-controls">
+                    <button class="quantity-button" onclick="decreaseQuantity()">-</button>
+                    <input type="number" id="product-quantity" value="1" min="1">
+                    <button class="quantity-button" onclick="increaseQuantity()">+</button>
+                </div>
+            </div>
+
+
+            <div class="carrito-container">
+                <button class="carrito-button" onclick="carritoProduct()">ADD TO CART</button>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <footer class="footer">
+        <div class="socialMedia">
+            <ul class="iconsSocialMedia">
+                <li><a href="https://www.facebook.com/"><img src="/IMAGENES/ICONS/facebook.png" alt=""></a></li>
+                <li><a href="https://x.com/"><img src="/IMAGENES/ICONS/logotipos.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/"><img src="/IMAGENES/ICONS/instagram.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="/JS/detalles.js"></script>
+</body>
+</html>
