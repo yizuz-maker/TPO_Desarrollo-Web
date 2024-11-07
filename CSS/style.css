@@ -193,6 +193,43 @@ font-family: fantasy;
     display: block;
 }
 
+    .sobrenosotros {
+        height: 450px;
+        width: 100%;
+        background-image: url(/IMAGENES/patronde-louis-vuitton-supremo-en-4k-oh037qwockxl9xci.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+        position: relative;
+        margin-bottom:50px; ;
+    }
+    
+    .principal {
+        color: #ffffff;
+        font-size: 50px;
+        font-family: 'Arial', sans-serif; 
+        font-weight: bold;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    
+    .secundario {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 25px;
+        font-family: 'Arial', sans-serif;
+        padding: 20px;
+        border-radius: 50px;
+        max-width: 900px;
+    }
+    
+
 
 /* footer */
 .footer {
