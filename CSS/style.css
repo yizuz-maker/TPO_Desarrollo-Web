@@ -136,10 +136,16 @@ body {
     padding: 15px;
     margin: 10px;
     display: flex;     /*para que quede todo alineado*/
+
+}
+
+.estilo a {
+    display: flex;     /*para que quede todo alineado*/
     flex-direction: column;
     justify-content: space-between;
-    
 }
+
+
 
 .estilo:hover {
     transform: scale(1.05);
