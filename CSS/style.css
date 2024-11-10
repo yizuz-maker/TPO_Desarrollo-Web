@@ -37,6 +37,13 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
+    padding: 10px 20px;
+
+}
+
+.navButton:hover {
+    background-color: #333;
+
 }
 
 .navButton a {
