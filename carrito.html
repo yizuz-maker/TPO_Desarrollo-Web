@@ -7,9 +7,23 @@
     <link rel="stylesheet" href="./CSS/carrito.css">
 </head>
 <body>
+    <header class="Nav">
+        <ul class="direcciones">
+            <li><button class="navButton"><a href="./contacto.html">Contacto</a></button></li>
+            <li><button class="navButton"><a href="./index.html#sneaker">Sneakers</a></button></li>
+            <li><button class="navButton"><a href="./index.html#prendas">Prendas</a></button></li>
+        </ul> 
+        <div class="Logocontainer">
+            <a href="index.html"><img src="./IMAGENES/ES.png" alt="logo" class="logo"></a>
+        </div>
+        <div class="carrito">
+            <a href="carrito.html"><img src="./IMAGENES/ICONS/carrito-de-compras1.png" class="logocarrito"></a><span id="contadorItem" class="contador">0</span>
+        </div>
+    </header>
+<div class="cart-container">
     <section class="cart">
         <h2>Carrito</h2>
-        <a href="index.html">seguir comprando</a>
+        <button class="continue-button" onclick="location.href='index.html'" type="button">Seguir comprando</button>
         <div class="cart-items" id="cart-items"></div>
         <div class="cart-summary">
             <button onclick="clearCart()">VACIAR CARRITO</button>
@@ -19,7 +33,23 @@
             </div>
         </div>
     </section>
+</div>
+    <footer class="footer">
+        <div class="socialMedia">
+        <ul class="iconsSocialMedia">
+            <li><a href="https://www.facebook.com/"><img src="./IMAGENES/ICONS/facebook.png" alt=""></a></li>
+            <li><a href="https://x.com/"><img src="./IMAGENES/ICONS/logotipos.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/"><img src="./IMAGENES/ICONS/instagram.png" alt=""></a></li>
+        </ul>
+        </div>
+        <div class="copyright">
+        <p>&copy; 2024 Derechos reservados</p>
+        </div>
+    
+    </footer>
+
 
     <script src="./JS/carrito.js"></script>
+    <script src="./JS/items.js"></script>
 </body>
 </html>
