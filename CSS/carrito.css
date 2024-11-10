@@ -1,26 +1,90 @@
+.main {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: black;
+    position: relative;
+}
+
+/* Menú a la izquierda */
+.direcciones {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    /* Ajuste para alinear a la izquierda */
+}
+
+.direcciones li {
+    margin-right: 15px;
+}
+
+.navButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navButton a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Logo centrado */
+.Logocontainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centra el logo */
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+/* Carrito a la derecha */
+.carrito {
+    position: absolute;
+    right: 20px;
+    /* Ajuste para alinear a la derecha */
+    display: flex;
+    align-items: center;
+}
+
+.logocarrito {
+    height: 60px;
+    width: auto;
+}
+
+.contador {
+    position: absolute;
+    color: white !important;
+}
+
+/*body*/
+
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-
-h2 {
-    /* text-align: center; */
-    font-size: 30px;
-}
-
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content:start;
-    padding: 15px;
-    margin: 10px;
-    margin-left: 0%    ;
-    margin-right:87%;
-    background-color: #1f1f1f;
-    font-size: 20px;
-    /* text-align: center; */
-    
+.cart-container {
+    padding: 20px;
 }
 
 /* Estilo del contenedor de cada ítem del carrito */
@@ -29,6 +93,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    margin-top: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -37,7 +102,8 @@ a{
 
 /* Estilo de la imagen del producto */
 .cart-item img {
-    width: 80px; /* Aumenta el tamaño de la imagen */
+    width: 80px;
+    /* Aumenta el tamaño de la imagen */
     height: auto;
     border-radius: 5px;
     margin-right: 20px;
@@ -63,7 +129,8 @@ a{
 
 /* Estilo del botón "Eliminar" para que coincida con los otros botones */
 .cart-item button {
-    background-color: black; /* Color de fondo similar a los otros botones */
+    background-color: black;
+    /* Color de fondo similar a los otros botones */
     color: white;
     padding: 10px 15px;
     border: none;
@@ -74,11 +141,13 @@ a{
 }
 
 .cart-item button:hover {
-    background-color: #333; /* Efecto hover para hacer el botón más oscuro */
+    background-color: #333;
+    /* Efecto hover para hacer el botón más oscuro */
 }
 
 /* Estilo de los botones de "VACIAR CARRITO" y "COMPRAR AHORA" */
-.cart-summary button {
+.cart-summary button,
+.continue-button {
     background-color: black;
     color: white;
     padding: 10px 20px;
@@ -89,6 +158,8 @@ a{
     font-size: 16px;
     margin-right: 10px;
 }
+
+
 
 .cart-summary button:hover {
     background-color: #333;
@@ -101,4 +172,56 @@ a{
     align-items: center;
     margin-top: 20px;
     font-size: 18px;
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    font-family: "Ubuntu", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+}
+
+.iconsSocialMedia {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+.iconsSocialMedia li {
+    margin: 5px 10px;
+
+}
+
+.iconsSocialMedia img {
+    border-radius: 2rem;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    width: 25px;
+}
+
+.copyright p {
+    padding: 10px;
+    color: white;
+}
+
+.textContent h2 {
+    font-size: 70px;
+    color: black;
+}
+
+.textContent p {
+
+    color: black;
+    font-size: 19px;
 }

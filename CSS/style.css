@@ -24,7 +24,8 @@
     margin: 0;
     padding: 0;
     position: absolute;
-    left: 20px; /* Ajuste para alinear a la izquierda */
+    left: 20px;
+    /* Ajuste para alinear a la izquierda */
 }
 
 .direcciones li {
@@ -47,7 +48,8 @@
 .Logocontainer {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%); /* Centra el logo */
+    transform: translateX(-50%);
+    /* Centra el logo */
 }
 
 .logo {
@@ -58,7 +60,8 @@
 /* Carrito a la derecha */
 .carrito {
     position: absolute;
-    right: 20px; /* Ajuste para alinear a la derecha */
+    right: 20px;
+    /* Ajuste para alinear a la derecha */
     display: flex;
     align-items: center;
 }
@@ -67,7 +70,8 @@
     height: 60px;
     width: auto;
 }
-.contador{
+
+.contador {
     position: absolute;
     color: white !important;
 }
@@ -78,18 +82,22 @@
 /*body*/
 
 body {
-    background-color: #f0f8ff; 
+    background-color: #f0f8ff;
     font-family: Arial, sans-serif;
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* Carousel */
 .carousel {
     position: relative;
-    width: 100%; /* Utiliza el 100% del contenedor padre */
-    max-width: 1024px; /* Establece un ancho máximo */
+    width: 100%;
+    /* Utiliza el 100% del contenedor padre */
+    max-width: 1024px;
+    /* Establece un ancho máximo */
     overflow: hidden;
-    margin: auto; /* Centra el carrusel en la página */
+    margin: auto;
+    /* Centra el carrusel en la página */
 }
 
 .carousel ul {
@@ -101,12 +109,15 @@ body {
 }
 
 .carousel li {
-    min-width: 100%; /* Cada imagen ocupa todo el ancho del carrusel */
+    min-width: 100%;
+    /* Cada imagen ocupa todo el ancho del carrusel */
 }
 
 .carousel img {
-    width: 100%; /* Asegúrate de que las imágenes se ajusten al contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%;
+    /* Asegúrate de que las imágenes se ajusten al contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
     display: block;
 }
 
@@ -117,17 +128,19 @@ body {
     gap: 20px;
     padding: 20px;
 }
+
 .mercaderia {
     background-color: aliceblue;
     display: flex;
     padding: 100px;
     width: auto;
-    justify-content: space-around;  
-    flex-wrap: wrap;  
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .estilo {
-    width: 180px; /* Ajusta el ancho de cada tarjeta de producto */
+    width: 180px;
+    /* Ajusta el ancho de cada tarjeta de producto */
     text-align: center;
     background-color: #ffffff;
     border-radius: 8px;
@@ -135,12 +148,14 @@ body {
     transition: transform 0.3s ease;
     padding: 15px;
     margin: 10px;
-    display: flex;     /*para que quede todo alineado*/
+    display: flex;
+    /*para que quede todo alineado*/
 
 }
 
 .estilo a {
-    display: flex;     /*para que quede todo alineado*/
+    display: flex;
+    /*para que quede todo alineado*/
     flex-direction: column;
     justify-content: space-between;
 }
@@ -178,10 +193,10 @@ a {
 }
 
 
-.division  {
+.division {
     height: 650px;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(../IMAGENES/pexels-tnarg-3152190.jpg) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../IMAGENES/pexels-tnarg-3152190.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -190,55 +205,56 @@ a {
 }
 
 .division p {
-color: #ffffff;
-font-size: 60px;
-font-family: fantasy;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: fantasy;
 }
 
 
-.division img{
-    max-width: 100%; 
+.division img {
+    max-width: 100%;
     width: 100%;
     height: 100%;
     display: block;
 }
 
-    .sobrenosotros {
-        height: 450px;
-        width: 100%;
-        background-image: url(../IMAGENES/patronde-louis-vuitton-supremo-en-4k-oh037qwockxl9xci.jpg);
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        padding: 20px;
-        position: relative;
-        margin-bottom:50px; ;
-    }
-    
-    .principal {
-        color: #ffffff;
-        font-size: 50px;
-        font-family: 'Arial', sans-serif; 
-        font-weight: bold;
-        margin-bottom: 10px;
-        padding: 10px 20px;
-        border-radius: 5px;
-    }
-    
-    .secundario {
-        color: #ffffff;
-        font-weight: 500;
-        font-size: 25px;
-        font-family: 'Arial', sans-serif;
-        padding: 20px;
-        border-radius: 50px;
-        max-width: 900px;
-    }
-    
+.sobrenosotros {
+    height: 450px;
+    width: 100%;
+    background-image: url(../IMAGENES/patronde-louis-vuitton-supremo-en-4k-oh037qwockxl9xci.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 50px;
+    ;
+}
+
+.principal {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.secundario {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 50px;
+    max-width: 900px;
+}
+
 
 
 /* footer */
