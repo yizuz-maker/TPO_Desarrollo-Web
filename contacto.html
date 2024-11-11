@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="CSS/contacto.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 <body>
+    <div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close">&times;</span>
+        <p id="popup-message"></p>
+    </div>
+    <script src="./JS/popup.js"></script>
+</div>
     <header class="Nav">
         <ul class="direcciones">
             <a href="/contacto.html"><li><button class="navButton">Contacto</button></li></a>
@@ -29,10 +38,10 @@
 <div class="container">
     <form>
         <div class="input-group">
-            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="nombre" placeholder="Nombre *" required>
             <input type="email" name="correo" placeholder="Correo *" required>
         </div>
-        <input type="text" name="telefono" placeholder="Número de teléfono">
+        <input type="text" name="telefono" placeholder="Número de teléfono *" required>
     
         <select id="razon" name="razon">
             <option value="razon">Razon</option>
