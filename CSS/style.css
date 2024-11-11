@@ -239,7 +239,15 @@ a {
     padding: 20px;
     position: relative;
     margin-bottom: 50px;
-    ;
+}
+
+.sobrenosotrosTexto {
+    background: rgba(6, 1, 1, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border: 1px solid rgb(180, 135, 65, 0.85);
+    border-radius: 10px;
 }
 
 .principal {
@@ -256,6 +264,7 @@ a {
     color: #ffffff;
     font-weight: 500;
     font-size: 25px;
+    text-align: center;
     font-family: 'Arial', sans-serif;
     padding: 20px;
     border-radius: 50px;
