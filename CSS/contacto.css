@@ -1,225 +1,227 @@
 body {
-    margin: 0;
-    overflow-y: hidden;
-    background-color: #f0f8ff;
+  margin: 0;
+  overflow-y: hidden;
+  background-color: #f0f8ff;
 }
 
 .main {
-    background-color: #f0f8ff;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    margin-top: 100px;
+  background-color: #f0f8ff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 100px;
 }
 
 .Nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    background-color: black;
-    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: black;
+  position: relative;
 }
 
 /* Menú a la izquierda */
 .direcciones {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    left: 20px;
-    /* Ajuste para alinear a la izquierda */
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 20px;
+  /* Ajuste para alinear a la izquierda */
 }
 
 .direcciones li {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .navButton {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
 }
 
 .navButton a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Logo centrado */
 .Logocontainer {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    /* Centra el logo */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* Centra el logo */
 }
 
 .logo {
-    height: 60px;
-    width: auto;
+  height: 60px;
+  width: auto;
 }
 
 /* Carrito a la derecha */
 .carrito {
-    position: absolute;
-    right: 20px;
-    /* Ajuste para alinear a la derecha */
-    display: flex;
-    align-items: center;
+  position: absolute;
+  right: 20px;
+  /* Ajuste para alinear a la derecha */
+  display: flex;
+  align-items: center;
 }
 
 .logocarrito {
-    height: 60px;
-    width: auto;
+  height: 60px;
+  width: auto;
 }
 
 .contador {
-    position: absolute;
-    color: white !important;
+  position: absolute;
+  color: white !important;
 }
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    width: 40%;
-    font-family: sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  width: 40%;
+  font-family: sans-serif;
 }
 
 .container {
-    max-width: 600px;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .input-group {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
 
-input, select,
+input,
+select,
 textarea {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid #ccc;
-    font-size: 1em;
-    margin-bottom: 10px;
-    width: 100%;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 form button {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
 
-    cursor: pointer;
-    width: 100%;
-    border: none;
+  cursor: pointer;
+  width: 100%;
+  border: none;
 }
 
 button:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 /* footer */
 .footer {
-    display: flex;
-    flex-direction: row;
-    flex-flow: row-reverse;
-    font-family: "Ubuntu", sans-serif;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: black;
-    bottom: 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row-reverse;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
 }
 
 .iconsSocialMedia {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
 }
 
 .iconsSocialMedia li {
-    margin: 5px 10px;
+  margin: 5px 10px;
 
 }
 
 .iconsSocialMedia img {
-    border-radius: 2rem;
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-    padding: 3px;
-    width: 25px;
+  border-radius: 2rem;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 3px;
+  width: 25px;
 }
 
 .copyright p {
-    padding: 10px;
-    color: white;
+  padding: 10px;
+  color: white;
 }
 
 .textContent h2 {
-    font-size: 70px;
-    color: black;
+  font-size: 70px;
+  color: black;
 }
 
 .textContent p {
 
-    color: black;
-    font-size: 19px;
+  color: black;
+  font-size: 19px;
 }
 
 .popup {
-    display: none;
-    /* Oculto por defecto */
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Fondo oscuro */
+  display: none;
+  /* Oculto por defecto */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Fondo oscuro */
 }
 
 .popup-content {
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
 }
 
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -227,55 +229,57 @@ button:hover {
 @media (max-width: 431px) {
 
 
-    .Nav {
-        height: 100px;
-    }
+  .Nav {
+    height: 100px;
+  }
 
 
-    .direcciones {
-        padding: 0;
-        width: 40%;
-        left: 30%;
-        justify-content: center;
-        z-index: 10;
-    }
+  .direcciones {
+    padding: 0;
+    width: 40%;
+    left: 30%;
+    justify-content: center;
+    z-index: 10;
+  }
 
-    .direcciones .navButton{
-        padding: 0;
-        color: #fff;
-    }
-
-
-    .Logocontainer {
-        width: 90%;
-    }
+  .direcciones .navButton {
+    padding: 0;
+    color: #fff;
+  }
 
 
-    .main h1 {
-        text-align: center;
-    }
+  .Logocontainer {
+    width: 90%;
+  }
 
 
-    form {
-        margin: 0px 20px;
-    }
+  .main h1 {
+    text-align: center;
+  }
 
 
-    .container{
-        padding: 0;
-    }
+  form {
+    margin: 0px 20px;
+  }
 
 
-    .input-group {
-        width: 100%;
-    }
+  .container {
+    padding: 0;
+  }
 
 
-    form input, #razon, form textarea {
+  .input-group {
     width: 100%;
-}
+  }
+
+
+  form input,
+  #razon,
+  form textarea {
+    width: 100%;
+  }
 
 
 
-  
+
 }
