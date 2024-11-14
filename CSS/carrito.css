@@ -15,7 +15,7 @@ html {
 .Nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 80px;
     background-color: black;
     position: relative;
@@ -24,6 +24,7 @@ html {
 /* Menú a la izquierda */
 .direcciones {
     display: flex;
+    justify-content:space-around ;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -62,8 +63,12 @@ html {
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
     height: 60px;
-    width: auto;
+    z-index: 11;
+    /* width: auto; */
+
 }
 
 /* Carrito a la derecha */
@@ -195,7 +200,7 @@ body {
     justify-content: space-between;
     width: 100%;
     background-color: black;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
 }
 
@@ -234,4 +239,70 @@ body {
 
     color: black;
     font-size: 19px;
+}
+
+
+
+@media (max-width: 431px) {
+
+
+    .Nav {
+        height: 100px;
+        justify-content: left;
+    }
+
+
+    .cart-container h2 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .direcciones {
+        padding: 0;
+        width: 40%;
+        left: 30%;
+        justify-content: center;
+        z-index: 10;
+    }
+
+
+    .direcciones .navButton{
+        padding: 0;
+        color: #fff;
+    }
+
+
+    .logo {
+        margin-left: 10px;
+    }
+
+
+    .botonCompra {
+        text-align: right;
+    }
+
+
+    .botonCompra span {
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
+
+    #checkout-button {
+        margin: 0;
+    }
+
+    #total-price{
+        padding-right: 5px;
+    } 
+
+    .cart-summary button{
+        padding-top: 10px;
+    }
+
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
 }

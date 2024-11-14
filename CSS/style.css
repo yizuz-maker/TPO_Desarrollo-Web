@@ -1,3 +1,7 @@
+
+
+
+
 .main {
     background-color: #fff;
     color: #000;
@@ -15,6 +19,7 @@
     height: 80px;
     background-color: black;
     position: relative;
+
 }
 
 /* Menú a la izquierda */
@@ -25,11 +30,12 @@
     padding: 0;
     position: absolute;
     left: 20px;
-    /* Ajuste para alinear a la izquierda */
+    color: white;
 }
 
 .direcciones li {
     margin-right: 15px;
+
 }
 
 .navButton {
@@ -37,18 +43,13 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
-    padding: 10px 20px;
-
-}
-
-.navButton:hover {
-    background-color: #333;
-
+    color: #fff !important;
 }
 
 .navButton a {
     text-decoration: none;
     color: white;
+
 }
 
 /* Logo centrado */
@@ -64,11 +65,9 @@
     width: auto;
 }
 
-/* Carrito a la derecha */
 .carrito {
     position: absolute;
     right: 20px;
-    /* Ajuste para alinear a la derecha */
     display: flex;
     align-items: center;
 }
@@ -82,8 +81,6 @@
     position: absolute;
     color: white !important;
 }
-
-
 
 
 /*body*/
@@ -321,4 +318,79 @@ a {
 
     color: black;
     font-size: 19px;
+}
+
+
+
+@media (max-width: 431px){
+
+
+
+    
+    .Nav {
+        height: 100px;
+    }
+
+
+    .carrito {
+        z-index: 10;
+    }
+    .direcciones {
+        padding: 0;
+        width: 40%;
+        left: 30%;
+        justify-content: center;
+        z-index: 10;
+    }
+
+
+    .direcciones .navButton{
+        padding: 0;
+        color: #fff;
+    }
+
+
+    .Logocontainer {
+        width: 90%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+
+
+
+    #sneaker.mercaderia {
+        /* width: 90%; */
+        padding: 20px;
+    }
+
+
+ 
+
+
+    .mercaderia { 
+        padding: 20px;
+    }
+
+    .estilo {
+        width: 220px;
+    }
+
+
+
+    .sobrenosotros {
+        width: 80%;
+        height: 100%;
+    }
+
+
+    .iconsSocialMedia {
+        padding: 2px;
+    }
+
+
+
+
+
+
 }
